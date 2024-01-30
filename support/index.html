@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../shared.css">
+    <link rel="stylesheet" href="support.css">
+    <title>Support</title>
+</head>
+
+<body>
+    <div class="backdrop"></div>
+    <header class="main-header">
+
+        <div class="main-header__logo">
+            <button class="toggle-button">
+                <span class="toggle-button__bar"></span>
+                <span class="toggle-button__bar"></span>
+                <span class="toggle-button__bar"></span>
+            </button>
+            <a href="../index.html" class="main-header__brand">
+                <img src="../images/Group.svg" alt="uHost - Your favorite hosting company">
+
+            </a>
+            <span class="main-header__logoName">PeerX</span>
+        </div>
+        <nav class="main-nav">
+            <ul class="main-nav__items">
+                <li class="main-nav__item">
+                    <a href="../index.html">Home</a>
+                </li>
+                <li class="main-nav__item">
+                    <a href="../about/index.html">About</a>
+                </li>
+                <li class="main-nav__item">
+                    <a href="../services/index.html">Services</a>
+                </li>
+                <li class="main-nav__item">
+                    <a href="../support/index.html">Support</a>
+                </li>
+                <!-- <li class="main-nav__item main-nav__item--cta">
+                    <a href="start-hosting/index.html">Get Started</a>
+                </li> -->
+            </ul>
+            <div class="main_nav--cta-container">
+                <ul class="main-nav__items--cta">
+                    <li class="main-nav__item main-nav__item--cta">
+                        <a href="start-hosting/index.html">Get Started</a>
+                    </li>
+                </ul>
+
+            </div>
+        </nav>
+    </header>
+    <nav class="mobile-nav">
+        <ul class="mobile-nav__items">
+            <li class="mobile-nav__item">
+                <a href="packages/index.html">Home</a>
+            </li>
+            <li class="mobile-nav__item">
+                <a href="about/index.html">About</a>
+            </li>
+            <li class="mobile-nav__item">
+                <a href="services/index.html">Services</a>
+            </li>
+            <li class="mobile-nav__item">
+                <a href="support/index.html">Support</a>
+            </li>
+            <li class="mobile-nav__item main-nav__item--cta">
+                <a href="start-hosting/index.html">Get Started</a>
+            </li>
+        </ul>
+    </nav>
+
+    <main>
+        <section class="feedback-container">
+            <div class="feedback-content">
+                <div class="feedback-header-container">
+                    <h1 class="feedback-header">Feedback</h1>
+                </div>
+                <div class="feedback-main-container">
+
+                    <div class="feedback-main-form-container">
+                        <form>
+                            <div class="form-inner-container">
+                                <div class="form-group name">
+                                    <label for="name">Name</label>
+                                    <input type="text" id="name" name="name" placeholder="full Name" required>
+                                </div>
+                                <div class="form-group email">
+                                    <label for="email">Email</label>
+                                    <input type="email" id="email" name="email" placeholder="email@example.com"
+                                        required>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="subject">Subject</label>
+                                <input type="text" id="subject" name="subject" list="subjectList"
+                                    placeholder="Enter the subject" required>
+                                <datalist id="subjectList">
+                                    <option value="Fraud Alert">
+                                    <option value="Inquiry">
+                                    <option value="Complaint">
+                                        <!-- Add more options as needed -->
+                                </datalist>
+                            </div>
+                            <div class="form-group">
+                                <label for="message">Message</label>
+                                <textarea id="message" name="message" placeholder="Enter your message"
+                                    required></textarea>
+                            </div>
+                            <div class="form-group">
+                                <label for="attachment">Attach file</label>
+                                <div class="custom-file-input">
+                                    <div class="file-label-container">
+                                        <div class="form-label-svg-container">
+                                            <img src="images/material-symbols-light_upload.svg" alt="" class="form-svg">
+                                        </div>
+
+
+                                        <p id="fileLabel">Drag or click to upload file<br><span
+                                                class="supported-format">Supported format: .jpg, .png, .pdf</span></p>
+                                    </div>
+                                    <div class="file-input-container">
+                                        <input type="file" id="attachment" name="attachment">
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <div class="form-button-container">
+                                    <div id="submitButton">
+                                        <p>send message</p>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </form>
+                    </div>
+
+                    <div class="feedback-main-contact-container">
+                        <div class="feedback-main-contact-content">
+                            <div class="feedback-main-contact-heading-container">
+                                <p class="feedback-main-contact-heading">Want to reach us directly?</p>
+                            </div>
+
+                            <div class="feedback-main-contact-body-container">
+                                <p class="feedback-main-contact-body">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                    Id dui pharetra elementum sit id sagittis non donec egestas.
+                                </p>
+                            </div>
+
+                            <div class="feedback-main-contact-list-container">
+                                <div class="feedback-main-contact-lists">
+                                    <div class="feedback-main-contact-list">
+                                        <div class="contact-list-svg">
+                                            <img src="images/5fad8b388a5b8b9f75c21b2b_image-icon-contact-crypto-template.svg.svg"
+                                                alt="">
+                                        </div>
+                                        <div class="contact-list-text">
+                                            <p>contact@example.com</p>
+                                        </div>
+
+                                    </div>
+                                    <div class="feedback-main-contact-list">
+                                        <div class="contact-list-svg">
+                                            <img src="images/5fad8b388a5b8b9f75c21b2b_image-icon-contact-crypto-template.svg.svg"
+                                                alt="">
+                                        </div>
+                                        <div class="contact-list-text">
+                                            <p>contact@example.com</p>
+                                        </div>
+
+                                    </div>
+                                    <div class="feedback-main-contact-list">
+                                        <div class="contact-list-svg">
+                                            <img src="images/5fad8b388a5b8b9f75c21b2b_image-icon-contact-crypto-template.svg.svg"
+                                                alt="">
+                                        </div>
+                                        <div class="contact-list-text">
+                                            <p>contact@example.com</p>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="support-faq-main-container">
+            <div class="support-faq-container">
+                <div class="support-faq-header-container">
+                    <p class="support-faq-header">
+                        FAQ
+                    </p>
+                </div>
+
+                <div class="support-faq-lists-container">
+                    <div class="support-faq-list-container">
+                        <div class="support-faq-list-header-container">
+                            <p class="support-faq-list-header">Question 1</p>
+                            <ion-icon name="add-outline" class="add-icon"></ion-icon>
+                        </div>
+                        <div class="support-faq-list-body-container">
+                            <p class="support-faq-list-body"></p>
+                        </div>
+                    </div>
+                    <div class="support-faq-list-container">
+                        <div class="support-faq-list-header-container">
+                            <p class="support-faq-list-header">Question 2</p>
+                            <ion-icon name="add-outline" class="add-icon"></ion-icon>
+                        </div>
+                        <div class="support-faq-list-body-container">
+                            <p class="support-faq-list-body"></p>
+                        </div>
+                    </div>
+                    <div class="support-faq-list-container">
+                        <div class="support-faq-list-header-container">
+                            <p class="support-faq-list-header">Question 3</p>
+                            <ion-icon name="remove-outline" class="minus-icon"></ion-icon>
+                        </div>
+                        <div class="support-faq-list-body-container">
+                            <p class="support-faq-list-body">Lorem ipsum dolor sit amet, 
+                                consectetur adipiscing elit. Id dui pharetra elementum sit id 
+                                sagittis non donec egestas.</p>
+                        </div>
+                    </div>
+                    <div class="support-faq-list-container">
+                        <div class="support-faq-list-header-container">
+                            <p class="support-faq-list-header">Question 4</p>
+                            <ion-icon name="add-outline" class="add-icon"></ion-icon>
+                        </div>
+                        <div class="support-faq-list-body-container">
+                            <p class="support-faq-list-body"></p>
+                        </div>
+                    </div>
+                    <div class="support-faq-list-container">
+                        <div class="support-faq-list-header-container">
+                            <p class="support-faq-list-header">Question 5</p>
+                            <ion-icon name="add-outline" class="add-icon"></ion-icon>
+                        </div>
+                        <div class="support-faq-list-body-container">
+                            <p class="support-faq-list-body"></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer-container">
+        <div class="newsletter-container">
+            <p class="newsletter-header">Subscribe To Our Newsletter</p>
+            <div id="newsletter-form">
+                <div class="newsletter-form-group">
+                    <input type="email" id="newsletter-input" placeholder="Enter email">
+                </div>
+
+                <div id="subscribe-btn">
+                    <p class="btn-text">Subscribe</p>
+                </div>
+            </div>
+        </div>
+        <div class="footer-links-container">
+            <div class="footer-links__logo">
+                <div class="footer-logo-container">
+                    <a href="../index.html">
+                        <img src="../images/footer-logo.svg" class="footer-logo" alt="footer-logo">
+                    </a>
+                </div>
+                <p class="footer-logo-text">PeerX</p>
+            </div>
+            <div class="footer-links__section-one">
+                <ul class="footer-list-links">
+                    <li class="footer-link">
+                        <p class="link-text"><a href="../index.html">Home</a></p>
+                    </li>
+                    <li class="footer-link">
+                        <p class="link-text"><a href="../about/index.html">About</a></p>
+                    </li>
+                    <li class="footer-link">
+                        <p class="link-text"><a href="../services/index.html">Services</a></p>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer-links__section-two">
+                <ul class="footer-list-links">
+                    <li class="footer-link">
+                        <p class="link-text"><a href="./privacy/index.html">Privacy Policy</a></p>
+                    </li>
+                    <li class="footer-link">
+                        <p class="link-text"><a href="">Legal</a></p>
+                        </p>
+                    </li>
+                    <li class="footer-link">
+                        <p class="link-text"><a href="../terms-and-conditions/index.html">Terms of privacy</a></p>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer-links__section-three">
+                <ul class="footer-list-links">
+                    <li class="footer-link">
+                        <p class="link-text">Help Center</p>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer-links__social-media">
+                <div class="social-media-title">
+                    <p class="social-title">Social Media</p>
+                </div>
+                <div class="social-media-container">
+                    <img src="../images/instagram.svg" class="insta" alt="">
+                    <img src="../images/facebook.svg" class="facebook" alt="">
+                    <img src="../images/youTube.svg" class="youTube" alt="">
+                </div>
+
+            </div>
+        </div>
+
+        </div>
+
+        </div>
+        <div class="copyright-container">
+            <p class="copyright-text">© NovaPeerX 2023. All rights reserved.</p>
+        </div>
+    </footer>
+
+
+    <footer class="mobile-footer-container">
+        <div class="newsletter-container">
+            <p class="newsletter-header">Subscribe To Our Newsletter</p>
+            <div id="newsletter-form">
+                <div class="newsletter-form-group">
+                    <input type="email" id="newsletter-input" placeholder="Enter email">
+                </div>
+
+                <div id="subscribe-btn">
+                    <p class="btn-text">Subscribe</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="mobile-footer-section">
+            <div class="footer-links-container">
+                <div class="footer-links__logo">
+                    <div class="footer-logo-container">
+                        <a href="../index.html">
+                            <img src="../images/footer-logo.svg" class="footer-logo" alt="footer-logo">
+                        </a>
+                    </div>
+                    <p class="footer-logo-text">PeerX</p>
+                </div>
+
+                <div class="footer-links__section-one">
+                    <ul class="footer-list-links">
+                        <li class="footer-link">
+                            <p class="link-text"><a href="../index.html">Home</a></p>
+                        </li>
+                        <li class="footer-link">
+                            <p class="link-text"><a href="../about/index.html">About</a></p>
+                        </li>
+                        <li class="footer-link">
+                            <p class="link-text"><a href="../services/index.html">Services</a></p>
+                        </li>
+                    </ul>
+                </div>
+
+
+
+            </div>
+
+        </div>
+
+        <div class="mobile-footer-section">
+            <div class="footer-links-container">
+            <div class="footer-links__section-two">
+                <ul class="footer-list-links">
+                    <li class="footer-link">
+                        <p class="link-text"><a href="./privacy/index.html">Privacy Policy</a></p>
+                    </li>
+                    <li class="footer-link">
+                        <p class="link-text"><a href="">Legal</a></p>
+                        </p>
+                    </li>
+                    <li class="footer-link">
+                        <p class="link-text"><a href="../terms-and-conditions/index.html">Terms of privacy</a></p>
+                    </li>
+                    <li class="footer-link">
+                        <p class="link-text">Help Center</p>
+                    </li>
+                </ul>
+            </div>
+           
+
+            <div class="footer-links__social-media">
+                <div class="mobile-social-media-title">
+                    <p class="social-title">Social Media</p>
+                </div>
+                <div class="social-media-container">
+                    <img src="../images/instagram.svg" class="insta" alt="">
+                    <img src="../images/facebook.svg" class="facebook" alt="">
+                    <img src="../images/youTube.svg" class="youTube" alt="">
+                </div>
+
+            </div>
+</div>
+        </div>
+
+        </div>
+
+        </div>
+        <div class="copyright-container">
+            <p class="copyright-text">© NovaPeerX 2023. All rights reserved.</p>
+        </div>
+        
+    </footer>
+    
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="../shared.js"></script>
+</body>
+
+</html>

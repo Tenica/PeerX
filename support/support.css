@@ -1,0 +1,454 @@
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,100;9..40,300;9..40,600&family=Inter&family=Plus+Jakarta+Sans:wght@500&family=Poppins:wght@300&family=Ubuntu:wght@300;400&display=swap');
+
+
+:root {
+    --peerX-red: #D31E15;
+    --peerX-white: #FFF;
+    --peerX-headerText: #5E5E5E;
+    --peerX-Brown: #000;
+    --peerX-card2: #35219C;
+    --peerX-card3: #E58A13;
+    --peerX-card6: #EE2635;
+    --peerX-lightRed: #FCC;
+    --peerX-tranTitle: #090033;
+    --peerX-Ubuntu: 'Ubuntu', sans-serif;
+    --peerX-DM-Sans: 'DM Sans', sans-serif;
+    --peerX-Inter-Sans: 'Inter', sans-serif;
+    --peerX-faq-purple: #A090F3; 
+    --peerX-faq-background: #E9E5F8;
+    --peerX-form-background:#F8EAE9;
+}
+
+
+.feedback-container {
+display: flex;
+justify-content: center;
+align-items: center;
+width: 100%;
+margin: 8rem 0rem 2rem;
+
+}
+
+
+
+.feedback-content {
+display: flex;
+flex-direction: column;
+
+width: 80%;
+}
+    
+.feedback-header-container {
+
+}
+   
+
+.feedback-header {
+    color: var(--peerX-Brown);
+
+/* Desktop/H1 */
+font-family: var(--peerX-DM-Sans);
+font-size: 66px;
+font-style: normal;
+font-weight: 700;
+line-height: 79.992px; /* 121.2% */
+letter-spacing: -1px;
+
+}
+   
+.feedback-main-container {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+width: 100%;
+}
+        
+
+.feedback-main-form-container {
+width: 100%;
+margin: 0rem 3.5rem;
+
+}
+
+
+.feedback-main-contact-container {
+  width: 100%;
+ 
+
+  }
+            
+.feedback-main-contact-content {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+                
+.feedback-main-contact-heading-container {
+
+}
+
+.feedback-main-contact-heading {
+  color: var(--peerX-Brown);
+font-family: var(--peerX-DM-Sans);
+font-size: 1.2rem;
+font-style: normal;
+font-weight: 700;
+line-height: 30.998px; /* 140.9% */
+letter-spacing: 0.22px;
+margin: 0rem;
+}
+                    
+               
+
+
+                    
+.feedback-main-contact-body {
+  color: var(--peerX-Brown);
+   font-family: var(--peerX-DM-Sans);
+  font-size: 0.9rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26.004px; /* 177.8% */
+  margin: 0.5rem 0;
+}
+                       
+
+.feedback-main-contact-list {
+  display: flex;
+  
+  align-items: center;
+  
+}
+
+.contact-list-text {
+  color: var(--peerX-Brown);
+  font-family: var(--peerX-DM-Sans);
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 28.998px; /* 161.1% */
+}
+
+
+.form-inner-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+ 
+  /* margin-bottom: 0.3rem; */
+}
+
+
+.contact-list-svg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 1000px;
+  background: var(--peerX-red);
+  padding: 0.6rem;
+  margin: 0rem 1rem 0rem 0rem;
+}
+
+
+                                      
+.contact-list-text {
+ 
+}
+
+::placeholder {
+  color: var(--peerX-Brown);
+  font-family: var(--peerX-DM-Sans);
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 27px; /* 150% */
+}
+
+
+.form-group label[for="name"], label[for="email"],label[for="subject"], label[for="message"], label[for="attachment"]  {
+    display: block;
+    margin-bottom: 5px;
+    color: var(--peerX-Brown);
+    font-family: var(--peerX-DM-Sans);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 25.992px; /* 144.4% */
+    letter-spacing: 0.9px;
+    text-transform: uppercase;
+  }
+
+
+
+  .form-group {
+
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+
+  .form-group input[type="text"],
+  .form-group input[type="email"] {
+    width: 100%;
+    padding: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 3rem;
+    background:  var(--peerX-form-background);
+    margin-bottom: 0.5rem;
+  }
+
+  .form-group  textarea {
+    width: 100%;
+    height: 130px;
+    border: 1px solid #ccc;
+    border-radius: 0.4rem;
+    background: var(--peerX-form-background);
+    resize: none;
+    padding: 0.7rem;
+  }
+
+  .custom-file-input {
+    width: 100%;
+
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 0.4rem;
+    background-color: var(--peerX-form-background);
+     /* Set custom height */
+    height: 110px;
+    position: relative;
+    cursor: pointer;
+    overflow: hidden;
+  }
+
+  
+
+  .custom-file-input input[type="file"] {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    cursor: pointer;
+  }
+
+  
+  .file-label-container {
+    width: 100%;
+    margin: 0rem 0rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+
+  }
+
+  .file-input-container {
+    width: 100%;
+    height: 100%;
+  }
+
+ 
+
+ 
+
+#fileLabel {
+  color:var(--peerX-Brown);
+  font-family: var(--peerX-DM-Sans);
+ font-size: 1rem;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-top: 0rem;
+
+}
+
+
+
+.supported-format {
+  color: #A07676;
+font-family: "DM Sans";
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+  
+  .upload-text {
+    text-align: center;
+    color: #555;
+    
+  }
+
+  .form-button-container {
+    display: flex;
+    width: 100%;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 0.3rem;
+  }
+
+/* Styles for the submit button */
+#submitButton {
+  cursor: pointer;
+  background-color: var(--peerX-red); /* Red background color */
+  padding: 10px 20px; /* Add padding to the button */
+  border-radius: 5rem; /* Add rounded corners */
+ 
+}
+
+#submitButton > p {
+  color: #FFF;
+text-align: center;
+font-family: "DM Sans";
+font-size: 0.7rem;
+font-style: normal;
+font-weight: 800;
+line-height: 16px; /* 100% */
+letter-spacing: 1.6px;
+text-transform: uppercase;
+  text-align: center;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow:ellipsis;
+}
+
+/* Hover effect */
+#submitButton:hover {
+  background-color: #c0392b; /* Darker red on hover */
+}
+
+  
+
+
+
+
+
+.support-faq-main-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 4rem 0rem;
+}  
+
+.support-faq-container {
+  width: 100%;
+  
+}
+
+.support-faq-header-container {
+
+}
+
+.support-faq-header {
+  color: var(--peerX-Brown);
+
+/* Desktop/H1 */
+font-family: var(--peerX-DM-Sans);
+font-size: 66px;
+font-style: normal;
+font-weight: 700;
+line-height: 79.992px; /* 121.2% */
+letter-spacing: -1px;
+
+padding: 0rem;
+margin: 0rem;
+text-align: center;
+}
+
+.support-faq-list-header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0.8rem 1rem;
+  
+}
+
+.support-faq-list-header {
+  color: #000;
+  font-family: "DM Sans";
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 29.988px; /* 107.1% */
+  letter-spacing: 0.28px;
+  margin: 0.6rem 0rem;
+}
+
+.support-faq-list-body-container {
+  display: flex;
+  align-items: stretch;
+  margin: 0rem 1rem;
+}
+
+.support-faq-list-body {
+  color: #000;
+
+/* Desktop/body */
+font-family: "DM Sans";
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 32.004px; /* 177.8% */
+
+}
+               
+
+.add-icon, .minus-icon {
+  height: 2rem;
+  width: 1.8rem;
+}    
+
+
+@media (min-width: 47.5rem) { 
+
+
+  .feedback-main-container {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+  }
+
+  .feedback-main-form-container {
+    width: 70%;
+    
+    
+  }
+
+  .feedback-main-contact-container {
+    width: 30%;
+  }
+  .support-faq-container {
+     width: 60%;
+  }
+
+  .feedback-header {
+    margin: 0rem 3.5rem;
+  }
+
+  .name {
+    margin: 0rem 0.5rem 0rem 0rem;
+  }
+
+  .email {
+    margin: 0rem 0rem 0rem 0.5rem;
+  }
+
+  .form-inner-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+   
+    /* margin-bottom: 0.3rem; */
+  }
+ 
+  
+}
+       
+   
